@@ -29,7 +29,10 @@
             <div class="card-body">
               <div class="row">
                 <div class=" form-pengunjung col p-5"></div>
-                <div class="form-pengunjung col mt-5 p-5"><h2 style="font-size: 70px; margin-right: 80px "><span class="no">{{ jml_pengunjung }}</span>Pengunjung</h2></div>
+                <NuxtLink to="/pengunjung">
+                  <div class="form-pengunjung  "><h2 style="font-size: 60px; margin-right: 10px "><span class="no">{{ jml_pengunjung }}</span>Pengunjung</h2></div>
+                </NuxtLink>
+                
               </div>
             </div>
           </div>
@@ -42,7 +45,10 @@
             <div class="card-body">
               <div class="row">
                 <div class="col p-5"></div>
-                <div class="col mt-5 p-5"><h2 style="font-size: 70px; margin-right: 200px"><span class="no">{{ jml_buku }}</span>Buku</h2></div>
+                <NuxtLink to="/buku">
+                  <div class=""><h2 style="font-size: 70px; margin-right: 200px"><span class="no">{{ jml_buku }}</span>Buku</h2></div>
+                </NuxtLink>
+                  
               </div>
             </div>
           </div>
@@ -93,28 +99,28 @@ getjml_buku( )
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 60%;
+  opacity: 70%;
 }
 .card.bg-buku { 
   background-image: url('../assets/img/cari.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 60%;
+  opacity: 70%;
 }
 .card.bg-spengunjung { 
   background-color: #fd5a7d;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 60%;
+  opacity: 70%;
 }
 .card.bg-sbuku { 
-  background-color: #7aff75;
+  background-color: #53bb4f;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 60%;
+  opacity: 70%;
 }
 
 </style>
