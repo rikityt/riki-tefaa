@@ -16,6 +16,6 @@
   </template>
   <style>
   .color{
-    background-color:  #5cc9eb;
+    background-color:  #00a9dd;
   }
   </style>
