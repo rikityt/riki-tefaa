@@ -7,9 +7,9 @@
             <h1>PERPUS DIGITAL</h1>
             <address>
                 SMKN 4 Tasikmalaya
-            </address>
+           Tasikmalaya
             <address>
-                JL.Depok,Sukamanah,Purbaratu
+                JL.Depok,Sukamenak,Purbaratu
             </address>
         </div>
     </div>
